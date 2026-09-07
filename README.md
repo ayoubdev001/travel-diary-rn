@@ -1,4 +1,4 @@
-# 🗺️ Carnet de Route
+# 🗺️ travel diary
 
 A simple mobile app to help travelers keep track of every trip — where they went, when, and their impressions — without losing notes in paper notebooks or scattered notes apps.
 
