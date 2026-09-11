@@ -14,11 +14,13 @@ const TripCard = ({ trip, onPress }) => {
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: "#f1f1f1",
-    borderRadius: 12,
+    backgroundColor:"#ffffff",
+    borderRadius: 20,
     padding: 16,
     marginVertical: 8,
     marginHorizontal: 16,
+    borderWidth:1,
+    borderColor:"#9e9e9ea4"
    
   },
   title: {

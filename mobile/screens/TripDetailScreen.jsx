@@ -94,7 +94,7 @@ const TripDetailScreen = ({ route, navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#ffffff",
+    backgroundColor: "#f7f7f7",
   },
 
   content: {
@@ -140,14 +140,14 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 16,
-    shadowColor: "#6C63FF",
+    shadowColor: "#000000",
     shadowOffset: {
-      width: 0,
+      width: 2,
       height: 8,
     },
-    shadowOpacity: 0.2,
+    shadowOpacity: 1,
     shadowRadius: 15,
-    elevation: 5,
+    elevation: 10,
   },
 
   destinationIcon: {
@@ -181,6 +181,14 @@ const styles = StyleSheet.create({
     borderRadius: 18,
     padding: 20,
     marginBottom: 16,
+    shadowColor: "#000000",
+    shadowOffset: {
+      width: 2,
+      height: 8,
+    },
+    shadowOpacity: 1,
+    shadowRadius: 15,
+    elevation: 10,
   },
 
   cardHeader: {

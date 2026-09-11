@@ -69,10 +69,10 @@ const AddTripScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#fdfdfd", padding: 20 },
+  container: { flex: 1, backgroundColor: "#f7f7f7", padding: 20 },
   label: { fontSize: 13, color: "#888", marginTop: 16, marginBottom: 4, textTransform: "uppercase" },
   input: {
-    backgroundColor:"#f3f3f3",
+    backgroundColor:"#ffffff",
     borderWidth: 1,
     borderColor: "#ebe8e8",
     borderRadius: 8,
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   notesInput: { height: 100, textAlignVertical: "top" },
   errorText: { color: "red", marginTop: 12 },
   saveButton: {
-    backgroundColor: "#007AFF",
+    backgroundColor: "#ff9100",
     borderRadius: 8,
     padding: 16,
     alignItems: "center",

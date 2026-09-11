@@ -57,13 +57,13 @@ const TripListScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#fafafa", },
+  container: { flex: 1, backgroundColor: "#eeeeee", },
   center: { flex: 1, justifyContent: "center", alignItems: "center", marginTop: 40 },
   addButton: {
     position: "absolute",
     bottom: 24,
     right: 24,
-    backgroundColor: "#007AFF",
+    backgroundColor: "#ff9100",
     width: 56,
     height: 56,
     borderRadius: 28,
