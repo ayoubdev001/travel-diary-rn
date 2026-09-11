@@ -3,7 +3,6 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet, SafeArea, } from "r
 import { useFocusEffect } from "@react-navigation/native";
 import { useTrips } from "../hooks/useTrips";
 import TripCard from "../components/TripCard";
-import { SafeAreaView } from "react-native-safe-area-context";
 
 const TripListScreen = ({ navigation }) => {
   const { trips, loading, error, refetch } = useTrips();
@@ -58,7 +57,7 @@ const TripListScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#f5f5f5", marginTop:50 },
+  container: { flex: 1, backgroundColor: "#fafafa", },
   center: { flex: 1, justifyContent: "center", alignItems: "center", marginTop: 40 },
   addButton: {
     position: "absolute",

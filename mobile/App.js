@@ -1,5 +1,4 @@
 
-
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -16,17 +15,18 @@ export default function App() {
         <Stack.Screen
           name="TripList"
           component={TripListScreen}
-          options={{headerShown:false}}
+          options={{ title: "My Trips"}}
+          
         />
         <Stack.Screen
           name="TripDetail"
           component={TripDetailScreen}
-          options={{headerShown:false}}
+          options={{ title: "Trip Details" }}
         />
         <Stack.Screen
           name="AddTrip"
           component={AddTripScreen}
-          options={{headerShown:false}}
+          options={{ title: "Add a Trip" }}
         />
       </Stack.Navigator>
     </NavigationContainer>

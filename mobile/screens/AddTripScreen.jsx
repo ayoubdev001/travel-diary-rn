@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   View,
   Text,
@@ -38,7 +38,6 @@ const AddTripScreen = ({ navigation }) => {
     <ScrollView style={styles.container}
     contentContainerStyle={{flexGrow:1, justifyContent:"center"}}>
 
-        
       <Text style={styles.label}>Title</Text>
       <TextInput style={styles.input} value={title} onChangeText={setTitle} placeholder="e.g. Sahara Trip" />
 
@@ -70,14 +69,15 @@ const AddTripScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#fffffe", padding: 20 },
+  container: { flex: 1, backgroundColor: "#fdfdfd", padding: 20 },
   label: { fontSize: 13, color: "#888", marginTop: 16, marginBottom: 4, textTransform: "uppercase" },
   input: {
+    backgroundColor:"#f3f3f3",
     borderWidth: 1,
-    borderColor: "#ddd",
+    borderColor: "#ebe8e8",
     borderRadius: 8,
     padding: 12,
-    fontSize: 16,
+    fontSize: 15,
   },
   notesInput: { height: 100, textAlignVertical: "top" },
   errorText: { color: "red", marginTop: 12 },

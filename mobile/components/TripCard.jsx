@@ -1,4 +1,3 @@
-
 import { Text, TouchableOpacity, StyleSheet } from "react-native";
 
 const TripCard = ({ trip, onPress }) => {
@@ -15,18 +14,15 @@ const TripCard = ({ trip, onPress }) => {
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: "#fff",
+    backgroundColor: "#f1f1f1",
     borderRadius: 12,
     padding: 16,
     marginVertical: 8,
     marginHorizontal: 16,
-    elevation: 2,
-    shadowColor: "#000",
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    shadowOffset: { width: 0, height: 2 },
+   
   },
   title: {
+    color: "#202020",
     fontSize: 18,
     fontWeight: "bold",
   },
@@ -37,7 +33,7 @@ const styles = StyleSheet.create({
   },
   dates: {
     fontSize: 12,
-    color: "#888",
+    color: "#7a7a7a",
     marginTop: 4,
   },
 });
